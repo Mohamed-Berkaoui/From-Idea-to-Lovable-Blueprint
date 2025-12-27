@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Flow – From Idea to Lovable Blueprint</title>
+    <link rel="stylesheet" href="page-styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <a href="../index.html" class="back-link">← Back to Presentation</a>
+            <img src="../images/icon-brain.png" alt="" class="header-icon">
+            <h1>User Flow</h1>
+            <p class="header-subtitle">User flow shows the path users take from START to FINISH.</p>
+        </div>
+        <img src="../images/illustration-rocket.png" alt="" class="header-illustration">
+    </header>
+
+    <!-- Topic Navigation -->
+    <nav class="topics-nav">
+        <div class="topics-nav-content">
+            <a href="understanding-app.html" class="topic-link">1. Understanding App</a>
+            <a href="defining-users.html" class="topic-link">2. Defining Users</a>
+            <a href="user-goals.html" class="topic-link">3. User Goals</a>
+            <a href="user-actions.html" class="topic-link">4. User Actions</a>
+            <a href="user-flow.html" class="topic-link active">5. User Flow</a>
+            <a href="sketching-screens.html" class="topic-link">6. Sketching Screens</a>
+            <a href="writing-prompts.html" class="topic-link">7. Writing Prompts</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-main">
+
+        <div class="concept-block">
+            <h2>🔄 What is User Flow?</h2>
+            <p>User flow is the step-by-step journey through your app. It answers:</p>
+            <ul class="check-list">
+                <li>What does the user do FIRST?</li>
+                <li>What do they see NEXT?</li>
+                <li>Where do they go AFTER that?</li>
+                <li>When are they DONE?</li>
+            </ul>
+            <div class="tip-box">
+                <span class="icon">💡</span>
+                <p><strong>Think of it as a story:</strong> "First the user does X, then they see Y, then they click Z..."</p>
+            </div>
+        </div>
+
+        <div class="concept-block">
+            <h2>📝 Flow Template</h2>
+            <p>Use this simple template:</p>
+            <div class="flow-template">
+                <div class="flow-step">Step 1 → Open app</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-step">Step 2 → See [something]</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-step">Step 3 → Do [action]</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-step">Step 4 → See [result]</div>
+                <div class="flow-arrow">↓</div>
+                <div class="flow-step" style="background: rgba(34, 197, 94, 0.2); color: var(--success);">Step 5 → Goal achieved! ✓</div>
+            </div>
+        </div>
+
+        <div class="examples-block">
+            <h2>💡 Complete User Flow Examples</h2>
+            
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">🛒</span>
+                    <h4>E-commerce: Buying a Product</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Open app</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. See products</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Search or browse</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. Click product</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. See details</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Add to cart</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Go to cart</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">8. Checkout</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">9. Pay</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">10. Order confirmed!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">⚙️</span>
+                    <h4>E-commerce Admin: Processing an Order</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Login to dashboard</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. See new orders</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Click order</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. View details</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Prepare package</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Mark as shipped</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Enter tracking</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">8. Order complete!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">🍕</span>
+                    <h4>Food Delivery: Ordering Food</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Open app</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. See restaurants</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Pick restaurant</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. See menu</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Add items</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. View cart</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Checkout</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">8. Track order</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">9. Food arrived!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">🍽️</span>
+                    <h4>Food Delivery Restaurant: Handling an Order</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Hear notification</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. See new order</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Accept order</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. Start preparing</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Mark ready</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Driver picks up</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">7. Order complete!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">🏨</span>
+                    <h4>Hotel Booking: Booking a Room</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Open app</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. Enter city</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Select dates</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. See hotels</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Pick hotel</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. See rooms</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Select room</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">8. Pay</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">9. Booking confirmed!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">🚕</span>
+                    <h4>Ride-Sharing: Getting a Ride</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Open app</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. Enter destination</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. See price</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. Confirm ride</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Wait for driver</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Track driver</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Driver arrives</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">8. Take ride</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">9. Arrived & pay!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">🚗</span>
+                    <h4>Ride-Sharing Driver: Completing a Ride</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Go online</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. Get request</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Accept ride</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. Navigate to pickup</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Pick up rider</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Start trip</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Navigate to destination</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">8. Complete trip</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">9. Receive payment!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">💪</span>
+                    <h4>Fitness App: Completing a Workout</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Open app</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. See workouts</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Pick category</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. Choose workout</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Start workout</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Follow exercises</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Finish workout</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">8. See progress!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">📚</span>
+                    <h4>Learning App: Taking a Course</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Open app</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. Browse courses</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Pick course</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. See details</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. Enroll</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Watch lessons</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Take quiz</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">8. Get certificate!</div>
+                </div>
+            </div>
+
+            <div class="flow-example-card">
+                <div class="flow-header">
+                    <span class="icon">🏠</span>
+                    <h4>Property Rental: Finding an Apartment</h4>
+                </div>
+                <div class="flow-diagram">
+                    <div class="flow-node">1. Open app</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">2. Set location</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">3. Set budget</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">4. See listings</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">5. View details</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">6. Contact landlord</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">7. Schedule visit</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node">8. Apply</div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-node success">9. Lease signed!</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="concept-block">
+            <h2>⚠️ Common Flow Mistakes</h2>
+            <div class="warning-box">
+                <span class="icon">❌</span>
+                <p><strong>Too vague:</strong> "User uses the app" - This doesn't describe specific steps!</p>
+            </div>
+            <div class="warning-box">
+                <span class="icon">❌</span>
+                <p><strong>Missing steps:</strong> Going from "Open app" directly to "Purchase complete" - What happened in between?</p>
+            </div>
+            <div class="warning-box">
+                <span class="icon">❌</span>
+                <p><strong>Too technical:</strong> "User triggers API call" - Focus on what the USER does, not the system!</p>
+            </div>
+            <div class="tip-box">
+                <span class="icon">✅</span>
+                <p><strong>Good flow:</strong> Describes each step from the USER'S perspective in simple language.</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="footer-content">
+            <a href="../index.html" class="back-btn">← Back to Presentation</a>
+            <div>
+                <p>From Idea to Lovable Blueprint</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Writing AI Prompts – From Idea to Lovable Blueprint</title>
+    <link rel="stylesheet" href="page-styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <a href="../index.html" class="back-link">← Back to Presentation</a>
+            <img src="../images/icon-robot.png" alt="" class="header-icon">
+            <h1>Writing AI Prompts</h1>
+            <p class="header-subtitle">Transform your thinking into clear instructions that AI can follow.</p>
+        </div>
+        <img src="../images/illustration-success.webp" alt="" class="header-illustration">
+    </header>
+
+    <!-- Topic Navigation -->
+    <nav class="topics-nav">
+        <div class="topics-nav-content">
+            <a href="understanding-app.html" class="topic-link">1. Understanding App</a>
+            <a href="defining-users.html" class="topic-link">2. Defining Users</a>
+            <a href="user-goals.html" class="topic-link">3. User Goals</a>
+            <a href="user-actions.html" class="topic-link">4. User Actions</a>
+            <a href="user-flow.html" class="topic-link">5. User Flow</a>
+            <a href="sketching-screens.html" class="topic-link">6. Sketching Screens</a>
+            <a href="writing-prompts.html" class="topic-link active">7. Writing Prompts</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-main">
+
+        <div class="concept-block">
+            <h2>📝 The Prompt Structure</h2>
+            <p>A complete AI prompt has these parts:</p>
+            <div class="prompt-structure">
+                <div class="ps-item">
+                    <span class="ps-num">1</span>
+                    <div class="ps-content">
+                        <h4>USERS</h4>
+                        <p>Who uses the app (can be multiple)</p>
+                    </div>
+                </div>
+                <div class="ps-item">
+                    <span class="ps-num">2</span>
+                    <div class="ps-content">
+                        <h4>GOALS</h4>
+                        <p>What each user wants to achieve</p>
+                    </div>
+                </div>
+                <div class="ps-item">
+                    <span class="ps-num">3</span>
+                    <div class="ps-content">
+                        <h4>ACTIONS</h4>
+                        <p>What each user can do (5-7 per user)</p>
+                    </div>
+                </div>
+                <div class="ps-item">
+                    <span class="ps-num">4</span>
+                    <div class="ps-content">
+                        <h4>FLOWS</h4>
+                        <p>Main journeys through the app</p>
+                    </div>
+                </div>
+                <div class="ps-item">
+                    <span class="ps-num">5</span>
+                    <div class="ps-content">
+                        <h4>SCREENS</h4>
+                        <p>Wireframes for key screens</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="concept-block">
+            <h2>🎯 Tips for Better Prompts</h2>
+            <ul class="check-list">
+                <li><strong>Be specific:</strong> The more detail, the better the result</li>
+                <li><strong>Use simple language:</strong> AI understands plain English best</li>
+                <li><strong>Organize clearly:</strong> Use headers and bullet points</li>
+                <li><strong>Include all user types:</strong> Don't forget admins/managers</li>
+                <li><strong>Describe screens:</strong> AI can visualize from text descriptions</li>
+            </ul>
+            <div class="warning-box">
+                <span class="icon">⚠️</span>
+                <p><strong>Common Mistake:</strong> "Make me an app like Uber" - This is too vague! Break it down into specific details.</p>
+            </div>
+        </div>
+
+        <div class="examples-block">
+            <h2>💡 Complete Prompt Examples</h2>
+            
+            <div class="full-prompt-example">
+                <h4>🛒 E-commerce App with Admin Panel</h4>
+                <div class="prompt-content">
+                    <div class="prompt-section">
+                        <h5>📌 APP DESCRIPTION</h5>
+                        <p>An online shopping app where customers can browse and buy products, and store owners can manage their inventory and orders.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>👥 USERS</h5>
+                        <div class="user-section">
+                            <h6>User 1: Customer</h6>
+                            <p>A busy person who wants to shop from home instead of going to physical stores.</p>
+                        </div>
+                        <div class="user-section">
+                            <h6>User 2: Admin (Store Owner)</h6>
+                            <p>A business owner who manages the online store, adds products, and fulfills orders.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🎯 GOALS</h5>
+                        <p><strong>Customer:</strong> Browse products, find what they need, buy quickly, and track delivery.</p>
+                        <p><strong>Admin:</strong> Add and manage products, process orders, view sales reports.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🔘 CUSTOMER ACTIONS</h5>
+                        <ol>
+                            <li>Browse all products</li>
+                            <li>Search products by name</li>
+                            <li>Filter by category and price</li>
+                            <li>View product details</li>
+                            <li>Add to cart</li>
+                            <li>Checkout and pay</li>
+                            <li>Track order status</li>
+                            <li>Write reviews</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>⚙️ ADMIN ACTIONS</h5>
+                        <ol>
+                            <li>Add new products</li>
+                            <li>Edit product details</li>
+                            <li>Set prices and discounts</li>
+                            <li>View all orders</li>
+                            <li>Update order status</li>
+                            <li>View sales reports</li>
+                            <li>Manage customer accounts</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🔄 MAIN FLOWS</h5>
+                        <p><strong>Customer Purchase Flow:</strong></p>
+                        <p>Open app → Browse/Search → View Product → Add to Cart → Checkout → Pay → Order Confirmed → Track → Delivered</p>
+                        <p><strong>Admin Order Flow:</strong></p>
+                        <p>Login → Dashboard → View New Orders → Update Status → Mark as Shipped → Complete</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>📱 SCREENS NEEDED</h5>
+                        <p><strong>Customer Screens:</strong> Login, Home, Product List, Product Details, Cart, Checkout, Order Tracking, Profile, Order History</p>
+                        <p><strong>Admin Screens:</strong> Login, Dashboard, Product List, Add/Edit Product, Orders List, Order Details, Customers, Reports</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="full-prompt-example">
+                <h4>🍕 Food Delivery App (3 User Types)</h4>
+                <div class="prompt-content">
+                    <div class="prompt-section">
+                        <h5>📌 APP DESCRIPTION</h5>
+                        <p>A food delivery platform connecting hungry customers with local restaurants, with delivery drivers handling the transportation.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>👥 USERS</h5>
+                        <div class="user-section">
+                            <h6>User 1: Customer</h6>
+                            <p>A person at home or office who wants food delivered without cooking or going out.</p>
+                        </div>
+                        <div class="user-section">
+                            <h6>User 2: Restaurant Owner</h6>
+                            <p>A restaurant that wants to reach more customers and handle delivery orders.</p>
+                        </div>
+                        <div class="user-section">
+                            <h6>User 3: Delivery Driver</h6>
+                            <p>A person with a vehicle who wants to earn money delivering food.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🎯 GOALS</h5>
+                        <p><strong>Customer:</strong> Order food from nearby restaurants and get it delivered quickly.</p>
+                        <p><strong>Restaurant:</strong> Receive orders, prepare food, and grow their business.</p>
+                        <p><strong>Driver:</strong> Accept deliveries and earn money with flexible hours.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🔘 CUSTOMER ACTIONS</h5>
+                        <ol>
+                            <li>See nearby restaurants</li>
+                            <li>Search for food or restaurants</li>
+                            <li>View restaurant menu</li>
+                            <li>Add items to cart</li>
+                            <li>Checkout and pay</li>
+                            <li>Track order in real-time</li>
+                            <li>Rate restaurant and driver</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🍽️ RESTAURANT ACTIONS</h5>
+                        <ol>
+                            <li>Receive new orders</li>
+                            <li>Accept or reject orders</li>
+                            <li>Mark order as preparing</li>
+                            <li>Mark order as ready</li>
+                            <li>Edit menu items</li>
+                            <li>View daily earnings</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🛵 DRIVER ACTIONS</h5>
+                        <ol>
+                            <li>Go online/offline</li>
+                            <li>Receive delivery requests</li>
+                            <li>Accept or decline deliveries</li>
+                            <li>Navigate to restaurant</li>
+                            <li>Confirm pickup</li>
+                            <li>Navigate to customer</li>
+                            <li>Complete delivery</li>
+                            <li>View earnings</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>📱 SCREENS NEEDED</h5>
+                        <p><strong>Customer App:</strong> Home, Restaurant List, Menu, Cart, Checkout, Order Tracking, Profile</p>
+                        <p><strong>Restaurant App:</strong> Dashboard, Active Orders, Menu Management, Earnings</p>
+                        <p><strong>Driver App:</strong> Home (Go Online), Delivery Request, Navigation, Delivery Details, Earnings</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="full-prompt-example">
+                <h4>🏨 Hotel Booking App</h4>
+                <div class="prompt-content">
+                    <div class="prompt-section">
+                        <h5>📌 APP DESCRIPTION</h5>
+                        <p>A hotel booking platform where travelers can search, compare, and book hotel rooms, while hotel managers can manage their properties and reservations.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>👥 USERS</h5>
+                        <div class="user-section">
+                            <h6>User 1: Guest (Traveler)</h6>
+                            <p>A person planning a trip who needs to find and book accommodation.</p>
+                        </div>
+                        <div class="user-section">
+                            <h6>User 2: Hotel Manager</h6>
+                            <p>A hotel staff member who manages room inventory, prices, and bookings.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🎯 GOALS</h5>
+                        <p><strong>Guest:</strong> Find a comfortable hotel at a good price and book it easily.</p>
+                        <p><strong>Manager:</strong> Fill rooms, manage reservations, and maximize occupancy.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🔘 GUEST ACTIONS</h5>
+                        <ol>
+                            <li>Search hotels by city and dates</li>
+                            <li>Filter by price, rating, amenities</li>
+                            <li>View hotel photos and details</li>
+                            <li>Read guest reviews</li>
+                            <li>Select room type</li>
+                            <li>Book and pay</li>
+                            <li>View booking confirmation</li>
+                            <li>Cancel booking</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🏢 MANAGER ACTIONS</h5>
+                        <ol>
+                            <li>Add room types</li>
+                            <li>Set room prices</li>
+                            <li>Update availability</li>
+                            <li>View all bookings</li>
+                            <li>Confirm guest arrivals</li>
+                            <li>Respond to reviews</li>
+                            <li>View occupancy reports</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🔄 MAIN FLOWS</h5>
+                        <p><strong>Guest Booking Flow:</strong></p>
+                        <p>Open app → Enter city/dates → Search → Browse hotels → Select hotel → Choose room → Book → Pay → Confirmation</p>
+                        <p><strong>Manager Check-in Flow:</strong></p>
+                        <p>View today's arrivals → Find guest → Verify booking → Complete check-in → Assign room</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>📱 SCREENS NEEDED</h5>
+                        <p><strong>Guest App:</strong> Search, Results List, Hotel Details, Room Selection, Booking Form, Payment, Confirmation, My Bookings</p>
+                        <p><strong>Manager Dashboard:</strong> Overview, Rooms, Bookings, Calendar, Pricing, Reviews, Reports</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="full-prompt-example">
+                <h4>🎓 Online Learning App</h4>
+                <div class="prompt-content">
+                    <div class="prompt-section">
+                        <h5>📌 APP DESCRIPTION</h5>
+                        <p>An online education platform where students can take video courses and instructors can create and sell their courses.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>👥 USERS</h5>
+                        <div class="user-section">
+                            <h6>User 1: Student</h6>
+                            <p>A person who wants to learn new skills through online video courses at their own pace.</p>
+                        </div>
+                        <div class="user-section">
+                            <h6>User 2: Instructor</h6>
+                            <p>An expert who wants to share knowledge and earn money by creating courses.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🎯 GOALS</h5>
+                        <p><strong>Student:</strong> Find courses on topics they want to learn, complete them, and get certified.</p>
+                        <p><strong>Instructor:</strong> Create high-quality courses, reach students worldwide, and earn income.</p>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>🔘 STUDENT ACTIONS</h5>
+                        <ol>
+                            <li>Browse course categories</li>
+                            <li>Search for courses</li>
+                            <li>View course details and preview</li>
+                            <li>Enroll in course (free or paid)</li>
+                            <li>Watch video lessons</li>
+                            <li>Take quizzes</li>
+                            <li>Track progress</li>
+                            <li>Download certificate</li>
+                            <li>Leave review</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>👨‍🏫 INSTRUCTOR ACTIONS</h5>
+                        <ol>
+                            <li>Create new course</li>
+                            <li>Upload video lessons</li>
+                            <li>Add quizzes</li>
+                            <li>Set course price</li>
+                            <li>Publish course</li>
+                            <li>View enrolled students</li>
+                            <li>Answer student questions</li>
+                            <li>View earnings</li>
+                        </ol>
+                    </div>
+                    
+                    <div class="prompt-section">
+                        <h5>📱 SCREENS NEEDED</h5>
+                        <p><strong>Student App:</strong> Home, Course Browse, Course Details, Video Player, Quiz, Progress, Certificates, Profile</p>
+                        <p><strong>Instructor Dashboard:</strong> My Courses, Create Course, Upload Videos, Add Quiz, Analytics, Earnings, Messages</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="concept-block">
+            <h2>✅ Pre-Prompt Checklist</h2>
+            <p>Before sending your prompt to AI, make sure you have:</p>
+            <ul class="check-list">
+                <li>Described ALL user types</li>
+                <li>Written clear goals for EACH user</li>
+                <li>Listed 5-7 actions for EACH user</li>
+                <li>Described at least ONE complete flow</li>
+                <li>Listed all screens needed</li>
+                <li>Included wireframes for key screens (optional but helpful)</li>
+            </ul>
+            <div class="tip-box">
+                <span class="icon">💡</span>
+                <p><strong>Remember:</strong> The more detail you provide, the better the AI can help you build exactly what you need!</p>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="footer-content">
+            <a href="../index.html" class="back-btn">← Back to Presentation</a>
+            <div>
+                <p>From Idea to Lovable Blueprint</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

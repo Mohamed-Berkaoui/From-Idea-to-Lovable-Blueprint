@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sketching Screens (Wireframes) – From Idea to Lovable Blueprint</title>
+    <link rel="stylesheet" href="page-styles.css">
+</head>
+<body>
+    
+    <!-- Header -->
+    <header class="page-header">
+        <div class="header-content">
+            <a href="../index.html" class="back-link">← Back to Presentation</a>
+            <img src="../images/phone-frame.png" alt="" class="header-icon">
+            <h1>Sketching Screens (Wireframes)</h1>
+            <p class="header-subtitle">Describe what each screen looks like. No design skills needed - just words!</p>
+        </div>
+        <img src="../images/illustration-rocket.png" alt="" class="header-illustration">
+    </header>
+
+    <!-- Topic Navigation -->
+    <nav class="topics-nav">
+        <div class="topics-nav-content">
+            <a href="understanding-app.html" class="topic-link">1. Understanding App</a>
+            <a href="defining-users.html" class="topic-link">2. Defining Users</a>
+            <a href="user-goals.html" class="topic-link">3. User Goals</a>
+            <a href="user-actions.html" class="topic-link">4. User Actions</a>
+            <a href="user-flow.html" class="topic-link">5. User Flow</a>
+            <a href="sketching-screens.html" class="topic-link active">6. Sketching Screens</a>
+            <a href="writing-prompts.html" class="topic-link">7. Writing Prompts</a>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="page-main">
+
+        <div class="concept-block">
+            <h2>📱 What is a Text Wireframe?</h2>
+            <p>A text wireframe is a simple description of what's on a screen. It lists:</p>
+            <ul class="check-list">
+                <li>What elements appear (buttons, text, images)</li>
+                <li>Where they are (top, middle, bottom)</li>
+                <li>What they do (button: "Add to Cart")</li>
+            </ul>
+            
+            <div class="tip-box">
+                <span class="icon">💡</span>
+                <p><strong>Why text?</strong> AI understands text perfectly. You don't need Figma or design skills!</p>
+            </div>
+        </div>
+
+        <div class="concept-block">
+            <h2>📝 Wireframe Template</h2>
+            <div class="wireframe-template">
+                <div class="wireframe-title">📱 Screen Name</div>
+                <div class="wireframe-content">
+                    <p>- [Element] at [position]</p>
+                    <p>- [Element]: "[text/label]"</p>
+                    <p>- Button: "[button text]"</p>
+                    <p>- List of [items]</p>
+                    <p>- Input field: "[placeholder]"</p>
+                    <p>- Icon: [description]</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="examples-block">
+            <h2>💡 Complete Wireframe Examples</h2>
+
+            <h3 style="color: var(--text-primary); margin: 2rem 0 1rem;">🛒 E-commerce App Screens</h3>
+            
+            <div class="wireframe-grid">
+                <div class="wireframe-card-detail">
+                    <h4>🛒 E-commerce: Home Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Logo (top left)</p>
+                        <p>- Search bar (top center)</p>
+                        <p>- Cart icon with badge (top right)</p>
+                        <p>- Categories horizontal scroll</p>
+                        <p>- "Featured Products" title</p>
+                        <p>- Product grid (2 columns)</p>
+                        <p>&nbsp;&nbsp;- Product image</p>
+                        <p>&nbsp;&nbsp;- Product name</p>
+                        <p>&nbsp;&nbsp;- Price</p>
+                        <p>&nbsp;&nbsp;- "Add to Cart" button</p>
+                        <p>- Bottom navigation bar</p>
+                        <p>&nbsp;&nbsp;- Home, Categories, Cart, Profile</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🛒 E-commerce: Product Details</h4>
+                    <div class="wireframe-body">
+                        <p>- Back button (top left)</p>
+                        <p>- Share button (top right)</p>
+                        <p>- Product images carousel</p>
+                        <p>- Product name (large text)</p>
+                        <p>- Price (highlighted)</p>
+                        <p>- Rating stars (4.5/5)</p>
+                        <p>- "Description" section</p>
+                        <p>&nbsp;&nbsp;- Product description text</p>
+                        <p>- Quantity selector (+/-)</p>
+                        <p>- "Add to Cart" button (full width)</p>
+                        <p>- "Reviews" section</p>
+                        <p>&nbsp;&nbsp;- List of customer reviews</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🛒 E-commerce: Cart Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Title: "Your Cart" (center)</p>
+                        <p>- Cart items list:</p>
+                        <p>&nbsp;&nbsp;- Product image (small)</p>
+                        <p>&nbsp;&nbsp;- Product name</p>
+                        <p>&nbsp;&nbsp;- Unit price</p>
+                        <p>&nbsp;&nbsp;- Quantity selector</p>
+                        <p>&nbsp;&nbsp;- Subtotal</p>
+                        <p>&nbsp;&nbsp;- Remove button (X)</p>
+                        <p>- Divider line</p>
+                        <p>- Subtotal row</p>
+                        <p>- Delivery fee row</p>
+                        <p>- Total row (bold)</p>
+                        <p>- Button: "Proceed to Checkout"</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🛒 E-commerce: Checkout Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Title: "Checkout"</p>
+                        <p>- Section: "Delivery Address"</p>
+                        <p>&nbsp;&nbsp;- Saved address card</p>
+                        <p>&nbsp;&nbsp;- "Change Address" link</p>
+                        <p>- Section: "Payment Method"</p>
+                        <p>&nbsp;&nbsp;- Credit Card option</p>
+                        <p>&nbsp;&nbsp;- Cash on Delivery option</p>
+                        <p>&nbsp;&nbsp;- Apple Pay option</p>
+                        <p>- Order Summary</p>
+                        <p>&nbsp;&nbsp;- Items total</p>
+                        <p>&nbsp;&nbsp;- Delivery fee</p>
+                        <p>&nbsp;&nbsp;- Total</p>
+                        <p>- Button: "Place Order"</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="color: var(--text-primary); margin: 2rem 0 1rem;">⚙️ Admin Dashboard Screens</h3>
+
+            <div class="wireframe-grid">
+                <div class="wireframe-card-detail">
+                    <h4>⚙️ Admin: Dashboard Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Sidebar menu (left)</p>
+                        <p>&nbsp;&nbsp;- Dashboard</p>
+                        <p>&nbsp;&nbsp;- Products</p>
+                        <p>&nbsp;&nbsp;- Orders</p>
+                        <p>&nbsp;&nbsp;- Customers</p>
+                        <p>&nbsp;&nbsp;- Reports</p>
+                        <p>&nbsp;&nbsp;- Settings</p>
+                        <p>- Header with admin name</p>
+                        <p>- Stats cards (row):</p>
+                        <p>&nbsp;&nbsp;- Total Sales</p>
+                        <p>&nbsp;&nbsp;- Total Orders</p>
+                        <p>&nbsp;&nbsp;- Total Customers</p>
+                        <p>- Recent Orders table</p>
+                        <p>- Sales chart</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>⚙️ Admin: Add Product Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Title: "Add New Product"</p>
+                        <p>- Image upload area</p>
+                        <p>&nbsp;&nbsp;- "Click to upload images"</p>
+                        <p>- Form fields:</p>
+                        <p>&nbsp;&nbsp;- Product Name (input)</p>
+                        <p>&nbsp;&nbsp;- Category (dropdown)</p>
+                        <p>&nbsp;&nbsp;- Price (number input)</p>
+                        <p>&nbsp;&nbsp;- Sale Price (optional)</p>
+                        <p>&nbsp;&nbsp;- Stock Quantity (number)</p>
+                        <p>&nbsp;&nbsp;- Description (text area)</p>
+                        <p>- Button: "Save Product"</p>
+                        <p>- Button: "Cancel"</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>⚙️ Admin: Orders List Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Title: "Orders"</p>
+                        <p>- Filter tabs:</p>
+                        <p>&nbsp;&nbsp;- All, Pending, Processing, Shipped</p>
+                        <p>- Search bar</p>
+                        <p>- Orders table:</p>
+                        <p>&nbsp;&nbsp;- Order ID</p>
+                        <p>&nbsp;&nbsp;- Customer name</p>
+                        <p>&nbsp;&nbsp;- Date</p>
+                        <p>&nbsp;&nbsp;- Total</p>
+                        <p>&nbsp;&nbsp;- Status badge</p>
+                        <p>&nbsp;&nbsp;- Actions (View, Edit)</p>
+                        <p>- Pagination</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>⚙️ Admin: Order Details Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Back button</p>
+                        <p>- Order ID and date</p>
+                        <p>- Status dropdown (change status)</p>
+                        <p>- Customer Information:</p>
+                        <p>&nbsp;&nbsp;- Name, email, phone</p>
+                        <p>&nbsp;&nbsp;- Shipping address</p>
+                        <p>- Order Items list:</p>
+                        <p>&nbsp;&nbsp;- Product, quantity, price</p>
+                        <p>- Order Total</p>
+                        <p>- Tracking Number input</p>
+                        <p>- Button: "Update Order"</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="color: var(--text-primary); margin: 2rem 0 1rem;">🍕 Food Delivery App Screens</h3>
+
+            <div class="wireframe-grid">
+                <div class="wireframe-card-detail">
+                    <h4>🍕 Food: Home Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Delivery address (top, clickable)</p>
+                        <p>- Search bar</p>
+                        <p>- Categories scroll (Pizza, Burgers...)</p>
+                        <p>- "Near You" section</p>
+                        <p>- Restaurant cards:</p>
+                        <p>&nbsp;&nbsp;- Restaurant image</p>
+                        <p>&nbsp;&nbsp;- Restaurant name</p>
+                        <p>&nbsp;&nbsp;- Rating, delivery time</p>
+                        <p>&nbsp;&nbsp;- Cuisine type</p>
+                        <p>- Bottom nav: Home, Search, Orders, Profile</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🍕 Food: Restaurant Menu</h4>
+                    <div class="wireframe-body">
+                        <p>- Restaurant banner image</p>
+                        <p>- Restaurant name, rating</p>
+                        <p>- Delivery time, minimum order</p>
+                        <p>- Category tabs (scroll)</p>
+                        <p>- Menu items list:</p>
+                        <p>&nbsp;&nbsp;- Item image</p>
+                        <p>&nbsp;&nbsp;- Item name</p>
+                        <p>&nbsp;&nbsp;- Description (short)</p>
+                        <p>&nbsp;&nbsp;- Price</p>
+                        <p>&nbsp;&nbsp;- Add button (+)</p>
+                        <p>- Floating cart button (bottom)</p>
+                        <p>&nbsp;&nbsp;- Items count, total</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🍕 Food: Order Tracking</h4>
+                    <div class="wireframe-body">
+                        <p>- Title: "Track Order"</p>
+                        <p>- Map showing driver location</p>
+                        <p>- Status timeline:</p>
+                        <p>&nbsp;&nbsp;- Order confirmed ✓</p>
+                        <p>&nbsp;&nbsp;- Preparing ✓</p>
+                        <p>&nbsp;&nbsp;- On the way (current)</p>
+                        <p>&nbsp;&nbsp;- Delivered</p>
+                        <p>- Estimated time</p>
+                        <p>- Driver info card:</p>
+                        <p>&nbsp;&nbsp;- Photo, name</p>
+                        <p>&nbsp;&nbsp;- Call button</p>
+                        <p>&nbsp;&nbsp;- Message button</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🍽️ Restaurant: Orders Dashboard</h4>
+                    <div class="wireframe-body">
+                        <p>- Title: "Incoming Orders"</p>
+                        <p>- Status filter: New, Preparing, Ready</p>
+                        <p>- Order cards:</p>
+                        <p>&nbsp;&nbsp;- Order number</p>
+                        <p>&nbsp;&nbsp;- Time received</p>
+                        <p>&nbsp;&nbsp;- Items list</p>
+                        <p>&nbsp;&nbsp;- Special instructions</p>
+                        <p>&nbsp;&nbsp;- Accept / Reject buttons</p>
+                        <p>&nbsp;&nbsp;- OR: "Mark Ready" button</p>
+                        <p>- Audio notification for new orders</p>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="color: var(--text-primary); margin: 2rem 0 1rem;">🏨 Hotel Booking App Screens</h3>
+
+            <div class="wireframe-grid">
+                <div class="wireframe-card-detail">
+                    <h4>🏨 Hotel: Search Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Title: "Find Hotels"</p>
+                        <p>- City/Location input</p>
+                        <p>- Date pickers:</p>
+                        <p>&nbsp;&nbsp;- Check-in date</p>
+                        <p>&nbsp;&nbsp;- Check-out date</p>
+                        <p>- Guests & Rooms selector</p>
+                        <p>- Button: "Search Hotels"</p>
+                        <p>- Recent searches (optional)</p>
+                        <p>- Popular destinations</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🏨 Hotel: Results Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Search summary (location, dates)</p>
+                        <p>- Filter button, Sort dropdown</p>
+                        <p>- Map view toggle</p>
+                        <p>- Hotel cards list:</p>
+                        <p>&nbsp;&nbsp;- Hotel image</p>
+                        <p>&nbsp;&nbsp;- Hotel name</p>
+                        <p>&nbsp;&nbsp;- Star rating</p>
+                        <p>&nbsp;&nbsp;- User rating score</p>
+                        <p>&nbsp;&nbsp;- Price per night</p>
+                        <p>&nbsp;&nbsp;- Key amenities icons</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🏨 Hotel: Details Screen</h4>
+                    <div class="wireframe-body">
+                        <p>- Photo gallery (swipe)</p>
+                        <p>- Hotel name, address</p>
+                        <p>- Rating, reviews count</p>
+                        <p>- "About" section</p>
+                        <p>- Amenities grid (icons + labels)</p>
+                        <p>- "Select Room" section</p>
+                        <p>- Room type cards:</p>
+                        <p>&nbsp;&nbsp;- Room photo, name</p>
+                        <p>&nbsp;&nbsp;- Bed type, max guests</p>
+                        <p>&nbsp;&nbsp;- Price, Select button</p>
+                        <p>- Reviews section</p>
+                    </div>
+                </div>
+
+                <div class="wireframe-card-detail">
+                    <h4>🏨 Hotel: Booking Confirmation</h4>
+                    <div class="wireframe-body">
+                        <p>- Success icon (checkmark)</p>
+                        <p>- "Booking Confirmed!"</p>
+                        <p>- Confirmation number</p>
+                        <p>- Hotel name & address</p>
+                        <p>- Check-in / Check-out dates</p>
+                        <p>- Room type</p>
+                        <p>- Guest name</p>
+                        <p>- Total paid</p>
+                        <p>- Button: "View Booking"</p>
+                        <p>- Button: "Back to Home"</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="concept-block">
+            <h2>✅ Wireframe Checklist</h2>
+            <ul class="check-list">
+                <li>Every screen has a clear NAME</li>
+                <li>All interactive elements are listed (buttons, inputs)</li>
+                <li>Button text is in quotes ("Add to Cart")</li>
+                <li>Position is clear (top, bottom, left, right)</li>
+                <li>Lists and grids are described</li>
+                <li>Navigation elements are included</li>
+            </ul>
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="page-footer">
+        <div class="footer-content">
+            <a href="../index.html" class="back-btn">← Back to Presentation</a>
+            <div>
+                <p>From Idea to Lovable Blueprint</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

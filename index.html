@@ -1,0 +1,1426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Happy downloading! 🎉---4. **Test after adding** - Open the presentation and navigate through slides to verify3. **Compress images** - Use TinyPNG.com to reduce file size for faster loading2. **Fallback enabled** - If an image fails to load, the original emoji will show instead1. **PNG format recommended** - Use PNG with transparent backgrounds for best results## 💡 Notes---```└── bg-section.png        [ ] Downloaded (optional)├── phone-frame.png       [ ] Downloaded (optional)├── confetti.png          [ ] Downloaded (optional)├── avatar-user.png       [ ] Downloaded├── icon-brain.png        [ ] Downloaded├── icon-robot.png        [ ] Downloaded├── illustration-success.png  [ ] Downloaded├── illustration-rocket.png   [ ] Downloaded├── logo.png              [ ] Downloaded├── bg-title.png          [ ] Downloadedimages/```## ✅ Quick Checklist---**Tip for Undraw.co:** You can change the illustration color to `#6366f1` before downloading!- **Text Light:** #ffffff- **Background Dark:** #0a0a0f- **Secondary Purple:** #8b5cf6- **Primary Purple:** #6366f1When downloading, try to find images with these colors:## 🎯 Color Palette for Matching---| **Icons8** | Icons & Illustrations | https://icons8.com || **Freepik** | Vectors/Illustrations | https://www.freepik.com || **Pexels** | Photos/Backgrounds | https://www.pexels.com || **Unsplash** | Photos/Backgrounds | https://unsplash.com || **Flaticon** | Icons | https://www.flaticon.com || **Undraw** | Illustrations (customizable colors) | https://undraw.co/illustrations ||--------|----------|-----|| Source | Best For | URL |## 🎨 Recommended Sources (Free)---- **Used on:** Section intro slides (optional)- **Style:** Subtle geometric or abstract pattern- **Size:** 1920x1080 px- **Type:** Section background### 10. `bg-section.png`- **Used on:** Wireframe slides (optional enhancement)- **Style:** Modern smartphone frame (iPhone/Android style)- **Size:** 300x600 px (transparent background)- **Type:** Device mockup### 9. `phone-frame.png`- **Used on:** Thank You slide background- **Opacity:** Will be displayed at 10% opacity- **Style:** Confetti celebration pattern (colorful)- **Size:** 1920x1080 px- **Type:** Background pattern### 8. `confetti.png`## 🟢 PRIORITY 3 - Optional Enhancements---- **Replaces:** 👩 emoji- **Used on:** Slide 8 (Who Is the User?)- **Style:** Friendly person illustration or professional avatar- **Size:** 120x120 px (transparent or circular)- **Type:** Avatar/Person illustration### 7. `avatar-user.png`- **Replaces:** 🧠 emoji- **Used on:** Slide 3 (Think Before You Build - YOU side)- **Style:** Brain or thinking icon (purple/blue accent)- **Size:** 80x80 px (transparent background)- **Type:** Icon/Illustration### 6. `icon-brain.png`- **Replaces:** 🤖 emoji- **Used on:** Slide 3 (Think Before You Build - AI side)- **Style:** Friendly AI robot icon- **Size:** 80x80 px (transparent background)- **Type:** Icon/Illustration### 5. `icon-robot.png`## 🟡 PRIORITY 2 - Icon Replacements---- **Download from:** Undraw.co (search "celebration" or "success")- **Used on:** Thank You slide (Slide 25)- **Style:** Success, celebration, achievement illustration- **Size:** 400x300 px (transparent background)- **Type:** Celebration illustration### 4. `illustration-success.png`- **Download from:** Undraw.co (search "startup" or "launch")- **Used on:** Title slide (floating decoration)- **Style:** Rocket launch, startup growth illustration- **Size:** 300x300 px (transparent background)- **Type:** Decorative illustration### 3. `illustration-rocket.png`- **Used on:** Title slide (Slide 1)- **Style:** Your accelerator or workshop logo- **Size:** 200x200 px (square, transparent background)- **Type:** Logo/Brand image### 2. `logo.png`- **Download from:** Unsplash, Pexels (search "dark abstract tech")- **Used on:** Title slide (Slide 1)- **Opacity:** Will be displayed at 15% opacity- **Style:** Dark abstract, tech pattern, or gradient (purple/blue tones)- **Size:** 1920x1080 px (or larger)- **Type:** Background image### 1. `bg-title.png`## 🔴 PRIORITY 1 - Most Impact (Download These First)---    <meta charset="UTF-8"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>From Idea to Lovable Blueprint</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div class="progress-bar">
+        <div class="progress-fill" id="progressFill"></div>
+    </div>
+
+    <!-- Slide Counter -->
+    <div class="slide-counter" id="slideCounter">1 / 25</div>
+
+    <!-- Navigation Arrows -->
+    <button class="nav-arrow nav-prev" id="prevBtn" aria-label="Previous slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M15 18l-6-6 6-6"/>
+        </svg>
+    </button>
+    <button class="nav-arrow nav-next" id="nextBtn" aria-label="Next slide">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M9 18l6-6-6-6"/>
+        </svg>
+    </button>
+
+    <!-- Slide Navigation Menu Toggle -->
+    <button class="menu-toggle" id="menuToggle" aria-label="Open slide menu">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M4 6h16M4 12h16M4 18h16"/>
+        </svg>
+    </button>
+
+    <!-- Slide Navigation Menu -->
+    <nav class="slide-menu" id="slideMenu">
+        <div class="slide-menu-header">
+            <h3>📑 Slides</h3>
+            <button class="menu-close" id="menuClose">✕</button>
+        </div>
+        <div class="slide-menu-content">
+            <div class="menu-section">
+                <h4>Section 1 – Introduction</h4>
+                <ul>
+                    <li><a href="#" data-goto="1">1. Workshop Title</a></li>
+                    <li><a href="#" data-goto="2">2. Why This Workshop Matters</a></li>
+                    <li><a href="#" data-goto="3">3. Think Before You Build</a></li>
+                </ul>
+            </div>
+            <div class="menu-section">
+                <h4>Section 2 – See Your App First</h4>
+                <ul>
+                    <li><a href="#" data-goto="4">4. Understand Your App First</a></li>
+                    <li><a href="#" data-goto="5">5. See Your App in Your Head</a></li>
+                    <li><a href="#" data-goto="6">6. Quick Sketching</a></li>
+                </ul>
+            </div>
+            <div class="menu-section">
+                <h4>Section 3 – The User</h4>
+                <ul>
+                    <li><a href="#" data-goto="7">7. The App Is Not For You</a></li>
+                    <li><a href="#" data-goto="8">8. Who Is the User?</a></li>
+                    <li><a href="#" data-goto="9">9. User Goal</a></li>
+                </ul>
+            </div>
+            <div class="menu-section">
+                <h4>Section 4 – User Actions</h4>
+                <ul>
+                    <li><a href="#" data-goto="10">10. Focus on What User Can Do</a></li>
+                    <li><a href="#" data-goto="11">11. Writing User Actions</a></li>
+                    <li><a href="#" data-goto="12">12. Example: Grocery App</a></li>
+                    <li><a href="#" data-goto="12b">12b. Example: Fitness App</a></li>
+                    <li><a href="#" data-goto="12c">12c. Example: Food Delivery</a></li>
+                    <li><a href="#" data-goto="12d">12d. Example: Hotel Booking</a></li>
+                </ul>
+            </div>
+            <div class="menu-section">
+                <h4>Section 5 – User Flow</h4>
+                <ul>
+                    <li><a href="#" data-goto="13">13. What Is User Flow?</a></li>
+                    <li><a href="#" data-goto="14">14. Simple User Flow</a></li>
+                    <li><a href="#" data-goto="15">15. Writing User Flow</a></li>
+                    <li><a href="#" data-goto="16">16. Example Flow</a></li>
+                </ul>
+            </div>
+            <div class="menu-section">
+                <h4>Section 6 – Sketching Screens</h4>
+                <ul>
+                    <li><a href="#" data-goto="17">17. Draw What You See</a></li>
+                    <li><a href="#" data-goto="18">18. Wireframes</a></li>
+                    <li><a href="#" data-goto="18b">18b. More Wireframe Examples</a></li>
+                    <li><a href="#" data-goto="18c">18c. Admin Wireframes</a></li>
+                </ul>
+            </div>
+            <div class="menu-section">
+                <h4>Section 7 – The Prompt</h4>
+                <ul>
+                    <li><a href="#" data-goto="19">19. Putting It All Together</a></li>
+                    <li><a href="#" data-goto="20">20. Prompt Structure</a></li>
+                    <li><a href="#" data-goto="21">21. Full Prompt Example</a></li>
+                    <li><a href="#" data-goto="21b">21b. More Prompt Tips</a></li>
+                    <li><a href="#" data-goto="21c">21c. Practice Writing</a></li>
+                </ul>
+            </div>
+            <div class="menu-section">
+                <h4>Section 8 – Next Steps</h4>
+                <ul>
+                    <li><a href="#" data-goto="22">22. Recap</a></li>
+                    <li><a href="#" data-goto="23">23. Before Next Workshop</a></li>
+                    <li><a href="#" data-goto="24">24. Key Takeaway</a></li>
+                    <li><a href="#" data-goto="25">25. Thank You</a></li>
+                </ul>
+            </div>
+            <div class="menu-section menu-section-guides">
+                <h4>📖 Detailed Guides</h4>
+                <ul>
+                    <li><a href="pages/understanding-app.html" target="_blank">Understanding Your App</a></li>
+                    <li><a href="pages/defining-users.html" target="_blank">Defining Users</a></li>
+                    <li><a href="pages/user-goals.html" target="_blank">User Goals</a></li>
+                    <li><a href="pages/user-actions.html" target="_blank">User Actions</a></li>
+                    <li><a href="pages/user-flow.html" target="_blank">User Flow</a></li>
+                    <li><a href="pages/sketching-screens.html" target="_blank">Sketching Screens</a></li>
+                    <li><a href="pages/writing-prompts.html" target="_blank">Writing Prompts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Presentation Container -->
+    <div class="presentation" id="presentation">
+
+        <!-- ========== SECTION 1: INTRODUCTION & MINDSET ========== -->
+
+        <!-- Slide 1: Title -->
+        <section class="slide active has-bg-image" data-slide="1">
+            <!-- Floating illustration (optional) -->
+            <img src="images/illustration-rocket.png" alt="" class="floating-illustration top-right animate-fade-in delay-5">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 1 – Introduction</div>
+                <!-- Optional: Logo image -->
+                <img src="images/logo.png" alt="Workshop Logo" class="slide-image small animate-fade-in" style="margin-bottom: 1rem;">
+                <h1 class="title-large animate-slide-up">From Idea to Lovable Blueprint</h1>
+                <h2 class="subtitle animate-slide-up delay-1">Prepare Your App<br>Before Writing AI Prompts</h2>
+                <div class="divider animate-scale-in delay-2"></div>
+                <p class="tagline animate-fade-in delay-3">Think first. Build smarter.</p>
+            </div>
+
+        </section>
+
+        <!-- Slide 2: Why This Workshop Matters -->
+        <section class="slide" data-slide="2">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Introduction</div>
+                <h2 class="title animate-slide-up">Why This Workshop Matters</h2>
+                <div class="content-grid">
+                    <div class="card animate-fade-in delay-1">
+                        <div class="card-icon">🚀</div>
+                        <h3>Startups Move Fast</h3>
+                        <p>You want to build quickly.<br>That's good.</p>
+                    </div>
+                    <div class="card animate-fade-in delay-2">
+                        <div class="card-icon">🤖</div>
+                        <h3>AI Is Powerful</h3>
+                        <p>AI can build apps in hours.<br>Not weeks.</p>
+                    </div>
+                    <div class="card animate-fade-in delay-3">
+                        <div class="card-icon">⚠️</div>
+                        <h3>Bad Thinking = Bad Product</h3>
+                        <p>If you don't think clearly,<br>AI builds the wrong thing.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 3: Think Before You Build -->
+        <section class="slide" data-slide="3">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Introduction</div>
+                <h2 class="title animate-slide-up">Think Before You Build</h2>
+                <div class="two-column animate-fade-in delay-1">
+                    <div class="column">
+                        <div class="role-card">
+                            <!-- Replace emoji with image: images/icon-robot.png -->
+                            <img src="images/icon-robot.png" alt="AI Robot" class="icon-image large" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+                            <div class="role-icon" style="display:none;">🤖</div>
+                            <h3>AI</h3>
+                            <p class="role-description">The Fast Builder</p>
+                            <p>AI writes code quickly.<br>AI follows your instructions.</p>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="role-card highlight">
+                            <!-- Replace emoji with image: images/icon-brain.png -->
+                            <img src="images/icon-brain.png" alt="Your Brain" class="icon-image large" onerror="this.style.display='none';this.nextElementSibling.style.display='block';">
+                            <div class="role-icon" style="display:none;">🧠</div>
+                            <h3>YOU</h3>
+                            <p class="role-description">The Architect</p>
+                            <p>You decide what to build.<br>You give clear instructions.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="key-message animate-slide-up delay-2">
+                    <p>"AI builds exactly what you explain.<br>So first, you must understand your app clearly."</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION 2: SEE YOUR APP FIRST ========== -->
+
+        <!-- Slide 4: You Must Understand Your App First -->
+        <section class="slide" data-slide="4">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 2 – See Your App First</div>
+                <h2 class="title animate-slide-up">You Must Understand Your App First</h2>
+                <div class="comparison animate-fade-in delay-1">
+                    <div class="comparison-item wrong">
+                        <div class="icon">❌</div>
+                        <h3>Don't Start Here</h3>
+                        <p>"Hey AI, build me an app..."</p>
+                    </div>
+                    <div class="arrow">→</div>
+                    <div class="comparison-item right">
+                        <div class="icon">✅</div>
+                        <h3>Start Here</h3>
+                        <p>"I understand my app. Now I can explain it."</p>
+                    </div>
+                </div>
+                <div class="principle-box animate-slide-up delay-2">
+                    <h3>The Rule</h3>
+                    <p>Do not start with prompts.<br><strong>Start with clarity.</strong></p>
+                </div>
+                <a href="pages/understanding-app.html" target="_blank" class="slide-detail-link animate-fade-in delay-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    Learn More: Understanding Your App
+                </a>
+            </div>
+        </section>
+
+        <!-- Slide 5: See Your App in Your Head -->
+        <section class="slide" data-slide="5">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">See Your App First</div>
+                <h2 class="title animate-slide-up">See Your App in Your Head</h2>
+                <div class="visualization animate-fade-in delay-1">
+                    <div class="brain-icon">🧠</div>
+                    <div class="thought-bubble">
+                        <div class="screen-mockup">
+                            <div class="mockup-header"></div>
+                            <div class="mockup-content">
+                                <div class="mockup-box"></div>
+                                <div class="mockup-box"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="instruction-list animate-slide-up delay-2">
+                    <div class="instruction-item">
+                        <span class="number">1</span>
+                        <p>Close your eyes</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="number">2</span>
+                        <p>Imagine the screens</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="number">3</span>
+                        <p>Imagine the clicks</p>
+                    </div>
+                    <div class="instruction-item">
+                        <span class="number">4</span>
+                        <p>Imagine what happens next</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 6: Quick Sketching -->
+        <section class="slide" data-slide="6">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">See Your App First</div>
+                <h2 class="title animate-slide-up">Quick Sketching</h2>
+                <p class="subtitle-text animate-fade-in delay-1">Optional but Powerful</p>
+                <div class="sketch-demo animate-fade-in delay-2">
+                    <div class="paper-sketch">
+                        <div class="sketch-box">
+                            <span>Logo</span>
+                        </div>
+                        <div class="sketch-box wide">
+                            <span>Search Box</span>
+                        </div>
+                        <div class="sketch-grid">
+                            <div class="sketch-box small"><span>Item</span></div>
+                            <div class="sketch-box small"><span>Item</span></div>
+                            <div class="sketch-box small"><span>Item</span></div>
+                        </div>
+                        <div class="sketch-box">
+                            <span>Button: Buy</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="tips-row animate-slide-up delay-3">
+                    <div class="tip">
+                        <span class="tip-icon">📝</span>
+                        <p>Paper is enough</p>
+                    </div>
+                    <div class="tip">
+                        <span class="tip-icon">⬜</span>
+                        <p>Boxes and words</p>
+                    </div>
+                    <div class="tip">
+                        <span class="tip-icon">🎨</span>
+                        <p>Not about design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION 3: THE USER ========== -->
+
+        <!-- Slide 7: The App Is Not For You -->
+        <section class="slide" data-slide="7">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 3 – The User</div>
+                <h2 class="title animate-slide-up">The App Is Not For You</h2>
+                <div class="contrast-visual animate-fade-in delay-1">
+                    <div class="person you">
+                        <div class="person-icon">👤</div>
+                        <p>You</p>
+                        <span class="label">Builder</span>
+                    </div>
+                    <div class="arrow-visual">≠</div>
+                    <div class="person user">
+                        <div class="person-icon">👥</div>
+                        <p>The User</p>
+                        <span class="label">Who uses the app</span>
+                    </div>
+                </div>
+                <div class="key-points animate-slide-up delay-2">
+                    <div class="key-point">
+                        <span class="bullet">•</span>
+                        <p>The app is for the user</p>
+                    </div>
+                    <div class="key-point">
+                        <span class="bullet">•</span>
+                        <p>Think about <strong>one user</strong> only</p>
+                    </div>
+                    <div class="key-point">
+                        <span class="bullet">•</span>
+                        <p>Understand their life</p>
+                    </div>
+                </div>
+                <a href="pages/defining-users.html" target="_blank" class="slide-detail-link animate-fade-in delay-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    Learn More: Defining Users
+                </a>
+            </div>
+        </section>
+
+        <!-- Slide 8: Who Is the User? -->
+        <section class="slide" data-slide="8">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">The User</div>
+                <h2 class="title animate-slide-up">Who Is the User?</h2>
+                <div class="user-definition animate-fade-in delay-1">
+                    <div class="user-card">
+                        <!-- Replace emoji with image: images/avatar-user.png -->
+                        <img src="images/avatar-user.png" alt="User Avatar" class="avatar-image large" onerror="this.style.display='none';this.nextElementSibling.style.display='flex';">
+                        <div class="user-avatar" style="display:none;">👩</div>
+                        <div class="user-details">
+                            <h3>A Real Person</h3>
+                            <ul>
+                                <li>Name: Mohamed</li>
+                                <li>Age: 28</li>
+                                <li>Job: Office worker</li>
+                                <li>Life: Busy, tired after work</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="problem-box animate-slide-up delay-2">
+                    <h3>A Real Problem</h3>
+                    <p>"Mohamed wants to buy groceries but has no time to go to the store."</p>
+                </div>
+                <div class="reminder animate-fade-in delay-3">
+                    <p>Real person + Real problem = Good start</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 9: User Goal -->
+        <section class="slide" data-slide="9">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">The User</div>
+                <h2 class="title animate-slide-up">User Goal</h2>
+                <p class="subtitle-text animate-fade-in delay-1">One clear sentence</p>
+                <div class="goal-template animate-fade-in delay-2">
+                    <div class="template-box">
+                        <p class="template-text">"The user wants to <span class="highlight-text">[do something]</span>"</p>
+                    </div>
+                </div>
+                <div class="examples-list animate-slide-up delay-3">
+                    <h3>Examples:</h3>
+                    <div class="example-item">
+                        <span class="app-type">🛒 E-commerce:</span>
+                        <p>"The user wants to buy products from home."</p>
+                    </div>
+                    <div class="example-item">
+                        <span class="app-type">📝 Tasks app:</span>
+                        <p>"The user wants to remember things to do."</p>
+                    </div>
+                    <div class="example-item">
+                        <span class="app-type">📅 Booking app:</span>
+                        <p>"The user wants to book appointments easily."</p>
+                    </div>
+                </div>
+                <div class="question-box animate-fade-in delay-4">
+                    <p><strong>Ask yourself:</strong> Why does the user open this app?</p>
+                </div>
+                <a href="pages/user-goals.html" target="_blank" class="slide-detail-link animate-fade-in delay-5">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    Learn More: User Goals
+                </a>
+            </div>
+        </section>
+
+        <!-- ========== SECTION 4: USER ACTIONS ========== -->
+
+        <!-- Slide 10: Focus on What the User Can Do -->
+        <section class="slide" data-slide="10">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 4 – User Actions</div>
+                <h2 class="title animate-slide-up">Focus on What the User Can Do</h2>
+                <div class="central-message animate-fade-in delay-1">
+                    <div class="message-box">
+                        <p class="big-text">Actions explain the app</p>
+                    </div>
+                </div>
+                <div class="action-preview animate-slide-up delay-2">
+                    <div class="action-item">
+                        <span class="action-icon">👆</span>
+                        <p>User can <strong>click</strong></p>
+                    </div>
+                    <div class="action-item">
+                        <span class="action-icon">👀</span>
+                        <p>User can <strong>see</strong></p>
+                    </div>
+                    <div class="action-item">
+                        <span class="action-icon">➕</span>
+                        <p>User can <strong>add</strong></p>
+                    </div>
+                    <div class="action-item">
+                        <span class="action-icon">🛒</span>
+                        <p>User can <strong>buy</strong></p>
+                    </div>
+                </div>
+                <div class="principle animate-fade-in delay-3">
+                    <p>If you can list the actions, you understand the app.</p>
+                </div>
+                <a href="pages/user-actions.html" target="_blank" class="slide-detail-link animate-fade-in delay-4">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    Learn More: User Actions
+                </a>
+            </div>
+        </section>
+
+        <!-- Slide 11: User Actions Explained -->
+        <section class="slide" data-slide="11">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">User Actions</div>
+                <h2 class="title animate-slide-up">User Actions Explained</h2>
+                <div class="formula animate-fade-in delay-1">
+                    <div class="formula-box">
+                        <span class="formula-part">"User can</span>
+                        <span class="formula-part highlight">[action]</span>
+                        <span class="formula-part">"</span>
+                    </div>
+                </div>
+                <div class="action-examples animate-slide-up delay-2">
+                    <div class="action-row">
+                        <span class="check">✓</span>
+                        <p>User can <strong>see</strong> products</p>
+                    </div>
+                    <div class="action-row">
+                        <span class="check">✓</span>
+                        <p>User can <strong>search</strong> for items</p>
+                    </div>
+                    <div class="action-row">
+                        <span class="check">✓</span>
+                        <p>User can <strong>add</strong> item to cart</p>
+                    </div>
+                    <div class="action-row">
+                        <span class="check">✓</span>
+                        <p>User can <strong>remove</strong> item from cart</p>
+                    </div>
+                    <div class="action-row">
+                        <span class="check">✓</span>
+                        <p>User can <strong>buy</strong> items</p>
+                    </div>
+                    <div class="action-row">
+                        <span class="check">✓</span>
+                        <p>User can <strong>see</strong> order history</p>
+                    </div>
+                </div>
+                <div class="tip-box animate-fade-in delay-3">
+                    <p>💡 Each action = one thing the user can do</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 12: Example – User Actions -->
+        <section class="slide" data-slide="12">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">User Actions</div>
+                <h2 class="title animate-slide-up">Example – User Actions</h2>
+                <div class="example-tabs animate-fade-in delay-1">
+                    <div class="tab active" data-tab="ecommerce">🛒 E-commerce App</div>
+                    <div class="tab" data-tab="tasks">📝 Tasks App</div>
+                </div>
+                <div class="tab-content active" id="ecommerce">
+                    <div class="action-list animate-slide-up delay-2">
+                        <div class="action-card">User can see all products</div>
+                        <div class="action-card">User can search for a product</div>
+                        <div class="action-card">User can see product details</div>
+                        <div class="action-card">User can add product to cart</div>
+                        <div class="action-card">User can see cart</div>
+                        <div class="action-card">User can buy products</div>
+                        <div class="action-card">User can see order history</div>
+                    </div>
+                </div>
+                <div class="tab-content" id="tasks">
+                    <div class="action-list">
+                        <div class="action-card">User can see all tasks</div>
+                        <div class="action-card">User can add a new task</div>
+                        <div class="action-card">User can mark task as done</div>
+                        <div class="action-card">User can delete a task</div>
+                        <div class="action-card">User can edit a task</div>
+                        <div class="action-card">User can filter tasks</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 12B: More App Examples - Booking App -->
+        <section class="slide" data-slide="12b">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">User Actions – More Examples</div>
+                <h2 class="title animate-slide-up">Example: Hotel Booking App</h2>
+                <div class="app-example-card animate-fade-in delay-1">
+                    <div class="app-header">
+                        <span class="app-icon">🏨</span>
+                        <h3>Hotel Booking App</h3>
+                    </div>
+                    <div class="app-details">
+                        <div class="detail-row">
+                            <span class="detail-label">👤 User:</span>
+                            <span class="detail-value">Traveler looking for a place to stay</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">🎯 Goal:</span>
+                            <span class="detail-value">Find and book a hotel room quickly</span>
+                        </div>
+                    </div>
+                    <div class="actions-grid-compact">
+                        <div class="action-chip">🔍 Search hotels by city</div>
+                        <div class="action-chip">📅 Pick check-in date</div>
+                        <div class="action-chip">📅 Pick check-out date</div>
+                        <div class="action-chip">👀 View hotel details</div>
+                        <div class="action-chip">📸 See hotel photos</div>
+                        <div class="action-chip">💳 Book room</div>
+                        <div class="action-chip">📧 Get confirmation</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 12C: More App Examples - Fitness App -->
+        <section class="slide" data-slide="12c">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">User Actions – More Examples</div>
+                <h2 class="title animate-slide-up">Example: Fitness App</h2>
+                <div class="app-example-card animate-fade-in delay-1">
+                    <div class="app-header">
+                        <span class="app-icon">💪</span>
+                        <h3>Home Workout App</h3>
+                    </div>
+                    <div class="app-details">
+                        <div class="detail-row">
+                            <span class="detail-label">👤 User:</span>
+                            <span class="detail-value">Person who wants to exercise at home</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">🎯 Goal:</span>
+                            <span class="detail-value">Follow workout videos and track progress</span>
+                        </div>
+                    </div>
+                    <div class="actions-grid-compact">
+                        <div class="action-chip">📋 Choose workout type</div>
+                        <div class="action-chip">⏱️ Set workout time</div>
+                        <div class="action-chip">▶️ Start workout video</div>
+                        <div class="action-chip">⏸️ Pause workout</div>
+                        <div class="action-chip">✅ Mark workout done</div>
+                        <div class="action-chip">📊 See progress chart</div>
+                        <div class="action-chip">🏆 Earn badges</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 12D: More App Examples - Learning App -->
+        <section class="slide" data-slide="12d">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">User Actions – More Examples</div>
+                <h2 class="title animate-slide-up">Example: Learning App</h2>
+                <div class="app-example-card animate-fade-in delay-1">
+                    <div class="app-header">
+                        <span class="app-icon">📚</span>
+                        <h3>Language Learning App</h3>
+                    </div>
+                    <div class="app-details">
+                        <div class="detail-row">
+                            <span class="detail-label">👤 User:</span>
+                            <span class="detail-value">Student who wants to learn new language</span>
+                        </div>
+                        <div class="detail-row">
+                            <span class="detail-label">🎯 Goal:</span>
+                            <span class="detail-value">Practice vocabulary and grammar daily</span>
+                        </div>
+                    </div>
+                    <div class="actions-grid-compact">
+                        <div class="action-chip">🌍 Choose language</div>
+                        <div class="action-chip">📖 Start lesson</div>
+                        <div class="action-chip">🎯 Answer quiz</div>
+                        <div class="action-chip">🔊 Listen to word</div>
+                        <div class="action-chip">🎤 Speak answer</div>
+                        <div class="action-chip">📈 See daily streak</div>
+                        <div class="action-chip">🎁 Unlock rewards</div>
+                    </div>
+                </div>
+                <div class="pattern-note animate-slide-up delay-2">
+                    <p>💡 <strong>Pattern:</strong> Every app has User + Goal + 5-7 Actions</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION 5: USER FLOW ========== -->
+
+        <!-- Slide 13: How the User Moves Inside the App -->
+        <section class="slide" data-slide="13">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 5 – User Flow</div>
+                <h2 class="title animate-slide-up">How the User Moves Inside the App</h2>
+                <div class="flow-visual animate-fade-in delay-1">
+                    <div class="flow-step">
+                        <div class="step-circle">1</div>
+                        <p>Open app</p>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step">
+                        <div class="step-circle">2</div>
+                        <p>See screen</p>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step">
+                        <div class="step-circle">3</div>
+                        <p>Click button</p>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step">
+                        <div class="step-circle">4</div>
+                        <p>Next screen</p>
+                    </div>
+                    <div class="flow-arrow">→</div>
+                    <div class="flow-step">
+                        <div class="step-circle">5</div>
+                        <p>Done!</p>
+                    </div>
+                </div>
+                <div class="concept-box animate-slide-up delay-2">
+                    <h3>User Flow = The Path</h3>
+                    <p>Step by step, from start to finish.</p>
+                </div>
+                <a href="pages/user-flow.html" target="_blank" class="slide-detail-link animate-fade-in delay-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    Learn More: User Flow
+                </a>
+            </div>
+        </section>
+
+        <!-- Slide 14: Simple User Flow Template -->
+        <section class="slide" data-slide="14">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">User Flow</div>
+                <h2 class="title animate-slide-up">Simple User Flow Template</h2>
+                <p class="subtitle-text animate-fade-in delay-1">4–5 steps is enough</p>
+                <div class="template-flow animate-fade-in delay-2">
+                    <div class="flow-template-step">
+                        <span class="step-num">Step 1:</span>
+                        <div class="step-blank">User opens the app</div>
+                    </div>
+                    <div class="flow-template-step">
+                        <span class="step-num">Step 2:</span>
+                        <div class="step-blank">User sees [something]</div>
+                    </div>
+                    <div class="flow-template-step">
+                        <span class="step-num">Step 3:</span>
+                        <div class="step-blank">User clicks [something]</div>
+                    </div>
+                    <div class="flow-template-step">
+                        <span class="step-num">Step 4:</span>
+                        <div class="step-blank">User does [action]</div>
+                    </div>
+                    <div class="flow-template-step">
+                        <span class="step-num">Step 5:</span>
+                        <div class="step-blank">User achieves goal ✓</div>
+                    </div>
+                </div>
+                <div class="tip-box animate-slide-up delay-3">
+                    <p>💡 Focus on the main path. Not every possible click.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 15: Example – User Flow -->
+        <section class="slide" data-slide="15">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">User Flow</div>
+                <h2 class="title animate-slide-up">Example – User Flow</h2>
+                <p class="subtitle-text animate-fade-in delay-1">🛒 E-commerce App: Buying a Product</p>
+                <div class="flow-example animate-fade-in delay-2">
+                    <div class="flow-example-step">
+                        <div class="flow-num">1</div>
+                        <div class="flow-desc">
+                            <strong>User opens the app</strong>
+                            <span>→ Sees home screen with products</span>
+                        </div>
+                    </div>
+                    <div class="flow-example-step">
+                        <div class="flow-num">2</div>
+                        <div class="flow-desc">
+                            <strong>User clicks on a product</strong>
+                            <span>→ Sees product details</span>
+                        </div>
+                    </div>
+                    <div class="flow-example-step">
+                        <div class="flow-num">3</div>
+                        <div class="flow-desc">
+                            <strong>User clicks "Add to Cart"</strong>
+                            <span>→ Product goes to cart</span>
+                        </div>
+                    </div>
+                    <div class="flow-example-step">
+                        <div class="flow-num">4</div>
+                        <div class="flow-desc">
+                            <strong>User clicks "Cart"</strong>
+                            <span>→ Sees all items in cart</span>
+                        </div>
+                    </div>
+                    <div class="flow-example-step">
+                        <div class="flow-num">5</div>
+                        <div class="flow-desc">
+                            <strong>User clicks "Buy"</strong>
+                            <span>→ Order is complete ✓</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION 6: SCREENS (TEXT WIREFRAMES) ========== -->
+
+        <!-- Slide 16: Screens Have a Purpose -->
+        <section class="slide" data-slide="16">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 6 – Screens</div>
+                <h2 class="title animate-slide-up">Screens Have a Purpose</h2>
+                <div class="screens-concept animate-fade-in delay-1">
+                    <div class="screen-card">
+                        <div class="screen-preview">
+                            <div class="screen-icon">🏠</div>
+                        </div>
+                        <h3>Home Screen</h3>
+                        <p>Shows products</p>
+                    </div>
+                    <div class="screen-card">
+                        <div class="screen-preview">
+                            <div class="screen-icon">📦</div>
+                        </div>
+                        <h3>Product Screen</h3>
+                        <p>Shows details</p>
+                    </div>
+                    <div class="screen-card">
+                        <div class="screen-preview">
+                            <div class="screen-icon">🛒</div>
+                        </div>
+                        <h3>Cart Screen</h3>
+                        <p>Shows items to buy</p>
+                    </div>
+                </div>
+                <div class="principle-box animate-slide-up delay-2">
+                    <h3>The Rule</h3>
+                    <p>Each screen helps the user do <strong>one thing</strong>.</p>
+                </div>
+                <a href="pages/sketching-screens.html" target="_blank" class="slide-detail-link animate-fade-in delay-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    Learn More: Sketching Screens
+                </a>
+            </div>
+        </section>
+
+        <!-- Slide 17: Text Wireframes -->
+        <section class="slide" data-slide="17">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Screens</div>
+                <h2 class="title animate-slide-up">Text Wireframes</h2>
+                <p class="subtitle-text animate-fade-in delay-1">No design tools needed. Just text.</p>
+                <div class="wireframe-demo animate-fade-in delay-2">
+                    <div class="text-wireframe">
+                        <div class="wireframe-title">📱 Home Screen</div>
+                        <div class="wireframe-content">
+                            <p>- Logo at top</p>
+                            <p>- Search bar</p>
+                            <p>- List of products (image, name, price)</p>
+                            <p>- Button: "Add to Cart" on each product</p>
+                            <p>- Cart icon at top right</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="benefits animate-slide-up delay-3">
+                    <div class="benefit">
+                        <span>✓</span>
+                        <p>Fast to write</p>
+                    </div>
+                    <div class="benefit">
+                        <span>✓</span>
+                        <p>Easy to change</p>
+                    </div>
+                    <div class="benefit">
+                        <span>✓</span>
+                        <p>AI understands it</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 18: Example – Text Wireframe -->
+        <section class="slide" data-slide="18">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Screens</div>
+                <h2 class="title animate-slide-up">Example – Text Wireframe</h2>
+                <div class="wireframe-examples animate-fade-in delay-1">
+                    <div class="wireframe-card">
+                        <div class="wireframe-header">📱 Product Details Screen</div>
+                        <div class="wireframe-body">
+                            <p>- Back button (top left)</p>
+                            <p>- Product image (large)</p>
+                            <p>- Product name</p>
+                            <p>- Product price</p>
+                            <p>- Product description</p>
+                            <p>- Quantity selector (+/-)</p>
+                            <p>- Button: "Add to Cart"</p>
+                        </div>
+                    </div>
+                    <div class="wireframe-card">
+                        <div class="wireframe-header">📱 Cart Screen</div>
+                        <div class="wireframe-body">
+                            <p>- Title: "Your Cart"</p>
+                            <p>- List of cart items</p>
+                            <p>&nbsp;&nbsp;- Item image (small)</p>
+                            <p>&nbsp;&nbsp;- Item name</p>
+                            <p>&nbsp;&nbsp;- Item price</p>
+                            <p>&nbsp;&nbsp;- Remove button</p>
+                            <p>- Total price</p>
+                            <p>- Button: "Buy Now"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 18B: More Wireframe Examples -->
+        <section class="slide" data-slide="18b">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Screens – More Examples</div>
+                <h2 class="title animate-slide-up">More Wireframe Examples</h2>
+                <div class="wireframe-examples animate-fade-in delay-1">
+                    <div class="wireframe-card">
+                        <div class="wireframe-header">📱 Login Screen</div>
+                        <div class="wireframe-body">
+                            <p>- App logo (center)</p>
+                            <p>- Text: "Welcome Back"</p>
+                            <p>- Email input field</p>
+                            <p>- Password input field</p>
+                            <p>- "Forgot password?" link</p>
+                            <p>- Button: "Login"</p>
+                            <p>- Text: "Don't have account?"</p>
+                            <p>- Link: "Sign Up"</p>
+                        </div>
+                    </div>
+                    <div class="wireframe-card">
+                        <div class="wireframe-header">📱 Profile Screen</div>
+                        <div class="wireframe-body">
+                            <p>- Profile photo (circle)</p>
+                            <p>- User name</p>
+                            <p>- User email</p>
+                            <p>- Button: "Edit Profile"</p>
+                            <p>- Menu: "My Orders"</p>
+                            <p>- Menu: "Settings"</p>
+                            <p>- Menu: "Help"</p>
+                            <p>- Button: "Logout"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 18C: Wireframe for Different App Types -->
+        <section class="slide" data-slide="18c">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Screens – Different Apps</div>
+                <h2 class="title animate-slide-up">Wireframes for Different Apps</h2>
+                <div class="wireframe-examples animate-fade-in delay-1">
+                    <div class="wireframe-card">
+                        <div class="wireframe-header">🏨 Hotel Booking - Search Screen</div>
+                        <div class="wireframe-body">
+                            <p>- Title: "Find Hotels"</p>
+                            <p>- Input: "City or Location"</p>
+                            <p>- Date picker: Check-in</p>
+                            <p>- Date picker: Check-out</p>
+                            <p>- Guests selector (1, 2, 3...)</p>
+                            <p>- Button: "Search Hotels"</p>
+                        </div>
+                    </div>
+                    <div class="wireframe-card">
+                        <div class="wireframe-header">💪 Fitness - Workout Screen</div>
+                        <div class="wireframe-body">
+                            <p>- Title: "Today's Workout"</p>
+                            <p>- Video player (large)</p>
+                            <p>- Timer: "03:45"</p>
+                            <p>- Progress bar</p>
+                            <p>- Button: "Pause"</p>
+                            <p>- Button: "Skip Exercise"</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tip-box animate-slide-up delay-2">
+                    <p>💡 <strong>Tip:</strong> Copy this format for YOUR app screens!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION 7: FROM THINKING TO AI PROMPT ========== -->
+
+        <!-- Slide 19: From Thinking to Prompt -->
+        <section class="slide" data-slide="19">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 7 – From Thinking to AI Prompt</div>
+                <h2 class="title animate-slide-up">From Thinking to Prompt</h2>
+                <div class="transformation animate-fade-in delay-1">
+                    <div class="transform-item">
+                        <div class="transform-icon">🧠</div>
+                        <h3>Your Thinking</h3>
+                        <p>User, Goal, Actions, Flow, Screens</p>
+                    </div>
+                    <div class="transform-arrow">→</div>
+                    <div class="transform-item highlight">
+                        <div class="transform-icon">📝</div>
+                        <h3>Your Prompt</h3>
+                        <p>Clear instructions for AI</p>
+                    </div>
+                </div>
+                <div class="key-message animate-slide-up delay-2">
+                    <p><strong>Prompt = Structured Thinking</strong></p>
+                    <p>You already did the hard work. Now just organize it.</p>
+                </div>
+                <a href="pages/writing-prompts.html" target="_blank" class="slide-detail-link animate-fade-in delay-3">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"/></svg>
+                    Learn More: Writing Prompts
+                </a>
+            </div>
+        </section>
+
+        <!-- Slide 20: Prompt Structure Explained -->
+        <section class="slide" data-slide="20">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">From Thinking to AI Prompt</div>
+                <h2 class="title animate-slide-up">Prompt Structure Explained</h2>
+                <div class="prompt-structure animate-fade-in delay-1">
+                    <div class="structure-item">
+                        <div class="structure-num">1</div>
+                        <div class="structure-content">
+                            <h3>User</h3>
+                            <p>Who uses the app?</p>
+                        </div>
+                    </div>
+                    <div class="structure-item">
+                        <div class="structure-num">2</div>
+                        <div class="structure-content">
+                            <h3>Goal</h3>
+                            <p>What does the user want?</p>
+                        </div>
+                    </div>
+                    <div class="structure-item">
+                        <div class="structure-num">3</div>
+                        <div class="structure-content">
+                            <h3>Actions</h3>
+                            <p>What can the user do?</p>
+                        </div>
+                    </div>
+                    <div class="structure-item">
+                        <div class="structure-num">4</div>
+                        <div class="structure-content">
+                            <h3>Flow</h3>
+                            <p>How does the user move?</p>
+                        </div>
+                    </div>
+                    <div class="structure-item">
+                        <div class="structure-num">5</div>
+                        <div class="structure-content">
+                            <h3>Screens</h3>
+                            <p>What does each screen show?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 21: Full Prompt Example - E-commerce with 2 Users -->
+        <section class="slide" data-slide="21">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">From Thinking to AI Prompt</div>
+                <h2 class="title animate-slide-up">Full Prompt Example: E-commerce App</h2>
+                <div class="dual-user-prompt animate-fade-in delay-1">
+                    <div class="user-prompt-card">
+                        <div class="user-type-header customer">
+                            <span class="user-icon">🛒</span>
+                            <h3>Customer (Regular User)</h3>
+                        </div>
+                        <div class="prompt-details">
+                            <div class="prompt-row"><span class="label">GOAL:</span> Buy products from home easily</div>
+                            <div class="prompt-row"><span class="label">ACTIONS:</span></div>
+                            <ul class="action-list-mini">
+                                <li>Browse products</li>
+                                <li>Search products</li>
+                                <li>View product details</li>
+                                <li>Add to cart</li>
+                                <li>Checkout & pay</li>
+                                <li>Track order</li>
+                                <li>Write reviews</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="user-prompt-card">
+                        <div class="user-type-header admin">
+                            <span class="user-icon">⚙️</span>
+                            <h3>Admin (Store Owner)</h3>
+                        </div>
+                        <div class="prompt-details">
+                            <div class="prompt-row"><span class="label">GOAL:</span> Manage store and fulfill orders</div>
+                            <div class="prompt-row"><span class="label">ACTIONS:</span></div>
+                            <ul class="action-list-mini">
+                                <li>Add new products</li>
+                                <li>Edit product info</li>
+                                <li>Set prices & discounts</li>
+                                <li>View all orders</li>
+                                <li>Update order status</li>
+                                <li>See sales reports</li>
+                                <li>Manage customers</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="multi-user-note animate-slide-up delay-2">
+                    <p>💡 <strong>Multi-user apps:</strong> Define each user type separately!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 21B: Another Prompt Example -->
+        <section class="slide" data-slide="21b">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">From Thinking to AI Prompt</div>
+                <h2 class="title animate-slide-up">Another Example: Fitness App</h2>
+                <div class="prompt-example animate-fade-in delay-1">
+                    <div class="prompt-box">
+                        <div class="prompt-section">
+                            <span class="label">USER:</span>
+                            <p>Busy parent who wants to exercise at home with no gym.</p>
+                        </div>
+                        <div class="prompt-section">
+                            <span class="label">GOAL:</span>
+                            <p>Follow short workout videos and track daily progress.</p>
+                        </div>
+                        <div class="prompt-section">
+                            <span class="label">ACTIONS:</span>
+                            <p>User can choose workout type. User can start video. User can pause. User can mark done. User can see progress chart.</p>
+                        </div>
+                        <div class="prompt-section">
+                            <span class="label">FLOW:</span>
+                            <p>Open app → Choose workout → Watch video → Mark done → See progress.</p>
+                        </div>
+                        <div class="prompt-section">
+                            <span class="label">SCREENS:</span>
+                            <p>Home, Workout List, Video Player, Progress, Profile.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 21C: Practice Exercise -->
+        <section class="slide" data-slide="21c">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">🎯 Your Turn!</div>
+                <h2 class="title animate-slide-up">Practice: Build Your Prompt</h2>
+                <div class="exercise-card animate-fade-in delay-1">
+                    <div class="exercise-header">
+                        <span class="exercise-icon">✏️</span>
+                        <h3>Pick ONE App Type:</h3>
+                    </div>
+                    <div class="exercise-options">
+                        <div class="option-chip">🍕 Food Delivery</div>
+                        <div class="option-chip">📅 Event Booking</div>
+                        <div class="option-chip">🚗 Ride Sharing</div>
+                        <div class="option-chip">📝 Note Taking</div>
+                    </div>
+                    <div class="exercise-steps">
+                        <p><strong>Now write on paper:</strong></p>
+                        <div class="step-mini">1️⃣ Who is your user?</div>
+                        <div class="step-mini">2️⃣ What is their goal?</div>
+                        <div class="step-mini">3️⃣ List 5-7 actions</div>
+                        <div class="step-mini">4️⃣ Write 4-5 flow steps</div>
+                        <div class="step-mini">5️⃣ Name 4-6 screens</div>
+                    </div>
+                </div>
+                <div class="time-box animate-slide-up delay-2">
+                    <span class="time-icon">⏱️</span>
+                    <span>5 minutes to complete</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== SECTION 8: WRAP UP ========== -->
+
+        <!-- Slide 22: Common Mistakes -->
+        <section class="slide" data-slide="22">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Section 8 – Wrap Up</div>
+                <h2 class="title animate-slide-up">Common Mistakes</h2>
+                <div class="mistakes-list animate-fade-in delay-1">
+                    <div class="mistake-item">
+                        <div class="mistake-icon">❌</div>
+                        <div class="mistake-content">
+                            <h3>Too Many Features</h3>
+                            <p>"I want the app to do everything!"</p>
+                            <p class="fix">✅ Fix: Start with 5-7 actions only.</p>
+                        </div>
+                    </div>
+                    <div class="mistake-item">
+                        <div class="mistake-icon">❌</div>
+                        <div class="mistake-content">
+                            <h3>Vague Words</h3>
+                            <p>"I want it to be user-friendly."</p>
+                            <p class="fix">✅ Fix: Be specific. What can user DO?</p>
+                        </div>
+                    </div>
+                    <div class="mistake-item">
+                        <div class="mistake-icon">❌</div>
+                        <div class="mistake-content">
+                            <h3>No Flow</h3>
+                            <p>"Just make it work somehow."</p>
+                            <p class="fix">✅ Fix: Write the steps. 1, 2, 3, 4, 5.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 23: What You Have Now -->
+        <section class="slide" data-slide="23">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Wrap Up</div>
+                <h2 class="title animate-slide-up">What You Have Now</h2>
+                <div class="checklist animate-fade-in delay-1">
+                    <div class="check-item">
+                        <div class="check-box">✓</div>
+                        <p>Clear app thinking</p>
+                    </div>
+                    <div class="check-item">
+                        <div class="check-box">✓</div>
+                        <p>Defined user</p>
+                    </div>
+                    <div class="check-item">
+                        <div class="check-box">✓</div>
+                        <p>Clear goal</p>
+                    </div>
+                    <div class="check-item">
+                        <div class="check-box">✓</div>
+                        <p>List of user actions</p>
+                    </div>
+                    <div class="check-item">
+                        <div class="check-box">✓</div>
+                        <p>User flow (steps)</p>
+                    </div>
+                    <div class="check-item">
+                        <div class="check-box">✓</div>
+                        <p>Screen descriptions</p>
+                    </div>
+                    <div class="check-item highlight">
+                        <div class="check-box">✓</div>
+                        <p>Ready-to-use AI prompt</p>
+                    </div>
+                </div>
+                <div class="success-message animate-slide-up delay-2">
+                    <p>🎉 You are ready to talk to AI!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 24: Homework -->
+        <section class="slide" data-slide="24">
+            <div class="slide-content">
+                <div class="section-label animate-fade-in">Wrap Up</div>
+                <h2 class="title animate-slide-up">Homework</h2>
+                <div class="homework-list animate-fade-in delay-1">
+                    <div class="homework-item">
+                        <div class="hw-number">1</div>
+                        <div class="hw-content">
+                            <h3>Choose Your App Idea</h3>
+                            <p>Pick one simple app you want to build.</p>
+                        </div>
+                    </div>
+                    <div class="homework-item">
+                        <div class="hw-number">2</div>
+                        <div class="hw-content">
+                            <h3>Write Your Thinking</h3>
+                            <p>User + Goal + Actions + Flow + Screens</p>
+                        </div>
+                    </div>
+                    <div class="homework-item">
+                        <div class="hw-number">3</div>
+                        <div class="hw-content">
+                            <h3>Create Your Prompt</h3>
+                            <p>Put it all together. Clear and simple.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="next-workshop animate-slide-up delay-2">
+                    <h3>Workshop 2 Preview:</h3>
+                    <p>Using AI to Build Your First Screens</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Slide 25: Thank You -->
+        <section class="slide" data-slide="25">
+            <div class="slide-content center">
+                <div class="thank-you-content animate-fade-in">
+                    <h1 class="title-large">🎉 Thank You!</h1>
+                    <div class="divider animate-scale-in delay-1"></div>
+                    <p class="tagline animate-fade-in delay-2">Remember: Think first. Build smarter.</p>
+                </div>
+                <div class="resource-link animate-slide-up delay-3">
+                    <a href="details.html" class="details-btn">📖 View Detailed Guide with Examples</a>
+                </div>
+                <div class="next-session animate-slide-up delay-4">
+                    <div class="session-info">
+                        <h3>Next Workshop</h3>
+                        <p>Workshop 2: Using AI to Build Your First Screens</p>
+                        <p class="date">Coming Soon</p>
+                    </div>
+                </div>
+                <div class="contact-info animate-fade-in delay-5">
+                    <p>Questions? Reach out to your program coordinator.</p>
+                </div>
+             
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Menu Overlay -->
+    <div class="menu-overlay" id="menuOverlay"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
