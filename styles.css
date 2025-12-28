@@ -12,14 +12,14 @@
 
 :root {
     /* Color Palette */
-    --bg-primary: #0a0a0f;
-    --bg-secondary: #12121a;
-    --bg-card: #1a1a24;
-    --bg-highlight: #252532;
+    --bg-primary: #14141f;
+    --bg-secondary: #1c1c2a;
+    --bg-card: #252535;
+    --bg-highlight: #32324a;
     
     --text-primary: #ffffff;
-    --text-secondary: #a0a0b0;
-    --text-muted: #666680;
+    --text-secondary: #b8b8c8;
+    --text-muted: #8888a0;
     
     --accent-primary: #6366f1;
     --accent-secondary: #8b5cf6;
@@ -60,7 +60,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     font-family: var(--font-main);
-    background: linear-gradient(135deg, #0a0a0f 0%, #1a1025 25%, #151520 50%, #0d1020 75%, #0a0a0f 100%);
+    background: linear-gradient(135deg, #14141f 0%, #251a35 25%, #1f1f30 50%, #181830 75%, #14141f 100%);
     color: var(--text-primary);
     line-height: 1.6;
 }
